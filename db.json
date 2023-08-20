@@ -1,0 +1,95 @@
+{
+  "seller": [
+    {
+      "name": "Vishu",
+      "email": "vishu@mail.com",
+      "password": "vishu@123",
+      "id": 1
+    },
+    {
+      "name": "anil",
+      "password": "anil@123",
+      "email": "anil@mail.com",
+      "id": 2
+    },
+    {
+      "name": "bruce",
+      "password": "bruce@123",
+      "email": "bruce@mail.com",
+      "id": 3
+    },
+    {
+      "name": "vishu",
+      "password": "vish@123",
+      "email": "vishu@mail.com",
+      "id": 4
+    },
+    {
+      "name": "rahul",
+      "password": "abc@123",
+      "email": "rahul@mail.com",
+      "id": 5
+    },
+    {
+      "name": "anil",
+      "password": "abc@123",
+      "email": "anil@mail.com",
+      "id": 6
+    }
+  ],
+  "products": [
+    {
+      "name": "macbook air",
+      "price": "150000",
+      "color": "silver",
+      "category": "laptop",
+      "description": "good",
+      "image": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-m40-1.jpg",
+      "id": 1
+    },
+    {
+      "name": "samsung40",
+      "price": "45878",
+      "color": "white",
+      "category": "mob",
+      "description": "nice",
+      "image": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-m40-1.jpg",
+      "id": 2
+    },
+    {
+      "name": "iphone14",
+      "price": "150000",
+      "color": "black",
+      "category": "mob",
+      "description": "rahul's phone",
+      "image": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-m40-1.jpg",
+      "id": 3
+    }
+  ],
+  "user": [
+    {
+      "name": " rahul",
+      "email": "rahul@test.com",
+      "password": "xyz@123",
+      "id": 1
+    },
+    {
+      "name": "mahesh",
+      "email": "mahesh@user.com",
+      "password": "user@123",
+      "id": 2
+    },
+    {
+      "name": "bruce",
+      "email": "bruce@user.com",
+      "password": "abc@123",
+      "id": 3
+    },
+    {
+      "name": "rahulkr",
+      "email": "rahul@user.com",
+      "password": "abc@123",
+      "id": 4
+    }
+  ]
+}
