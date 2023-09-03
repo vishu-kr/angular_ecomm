@@ -13,6 +13,7 @@ export class HeaderComponent {
   sellerName: string = '';
   searchResult:undefined|product[];
   userName:string="";
+  cartItems=0;
 
   constructor(private route: Router, private product: ProductService){}
   ngOnInit(): void{
@@ -33,6 +34,13 @@ export class HeaderComponent {
           this.menuType='default'
         }
       }
+    })
+    let cartData = localStorage.getItem('localCart')
+    if(cartData){
+      this.cartItems=JSON.parse(cartData).length
+    }
+    this.product.cartData.subscribe((items)=>{
+      this.cartItems=items.length
     })
   }
   logout(){
